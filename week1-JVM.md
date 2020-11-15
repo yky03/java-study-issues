@@ -30,7 +30,7 @@
 - java test (test.class 파일이 실행됨)
 - 소스파일 -> 실행파일 -> JVM영역 [ Class loader -> Byte code Verifler -> Just-in-Time Compiler -> Runtime System ] -> 운영체제 -> Hardware
 
-Link : [JVM이 자바프로그램을 실행하는 과정][https://medium.com/pocs/jvm%EC%9D%B4-%EC%9E%90%EB%B0%94%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EA%B3%BC%EC%A0%95]
+Link : [JVM이 자바프로그램을 실행하는 과정](https://medium.com/pocs/jvm%EC%9D%B4-%EC%9E%90%EB%B0%94%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EA%B3%BC%EC%A0%95)
 
 ## 바이트코드란 무엇인가
 
@@ -41,8 +41,8 @@ Link : [JVM이 자바프로그램을 실행하는 과정][https://medium.com/poc
 - 각각의 바이트코드는 1바이트로 구성되지만 몇 개의 파라미터가 사용되는 경우가 있어 총 몇 바이트로 구성되는 경우가 있다.
 - 256개의 명령코드 모두가 사용되지는 않는다.
 
-Link : [바이트코드 위키백과][https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C]
-Link : [자바 바이트코드 위키백과][https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C]
+Link : [바이트코드 위키백과](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C)
+Link : [자바 바이트코드 위키백과](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C)
 
 ## JIT 컴파일러란 무엇이며 어떻게 동작하는지
 
@@ -51,7 +51,7 @@ Link : [자바 바이트코드 위키백과][https://ko.wikipedia.org/wiki/%EC%9
 - 파일 전체를 한번에 기계어로 변환함.
 - 미리 컴파일해놓고 실행하므로 처리속도가 빠름.
 
-Link : [JIT 컴파일 위키백과][https://ko.wikipedia.org/wiki/JIT_%EC%BB%B4%ED%8C%8C%EC%9D%BC]
+Link : [JIT 컴파일 위키백과](https://ko.wikipedia.org/wiki/JIT_%EC%BB%B4%ED%8C%8C%EC%9D%BC)
 
 ## JVM 구성 요소
 
@@ -61,7 +61,7 @@ Link : [JIT 컴파일 위키백과][https://ko.wikipedia.org/wiki/JIT_%EC%BB%B4%
 - PC레지스터(스레드마다 하나씩존재, 현재 수행중인 JVM주소 저장)
 - Native 메소드 스택(JNI표준규약 제공)영역으로 이루어짐
 
-Link : [자바 메모리 구조][https://hoonmaro.tistory.com/19]
+Link : [자바 메모리 구조](https://hoonmaro.tistory.com/19)
 
 ## JDK와 JRE의 차이
 
@@ -69,10 +69,10 @@ Link : [자바 메모리 구조][https://hoonmaro.tistory.com/19]
 - JDK : 자바 개발 키트로써 자바의 모든 기능을 갖춘 SDK(소프트웨어 개발 키트) -> JRE + 개발/디버깅 툴
 - JVM : 클래스 로더 시스템 + 런타임 데이터 영역 + 실행 엔진
 
-Link : [JDK와 JRE의 차이][https://c10106.tistory.com/3135]
+Link : [JDK와 JRE의 차이](https://c10106.tistory.com/3135)
 
 
-### 마크다운 문법 참고
-Link : [마크다운 markdown 작성법][https://gist.github.com/ihoneymon/652be052a0727ad59601]
+## 마크다운 문법 참고
+Link : [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 
 

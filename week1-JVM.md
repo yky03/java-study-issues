@@ -41,7 +41,7 @@ Link : [JVM이 자바프로그램을 실행하는 과정](https://medium.com/poc
 - 각각의 바이트코드는 1바이트로 구성되지만 몇 개의 파라미터가 사용되는 경우가 있어 총 몇 바이트로 구성되는 경우가 있다.
 - 256개의 명령코드 모두가 사용되지는 않는다.
 
-Link : [바이트코드 위키백과](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C)
+Link : [바이트코드 위키백과](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C)  
 Link : [자바 바이트코드 위키백과](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C)
 
 ## JIT 컴파일러란 무엇이며 어떻게 동작하는지

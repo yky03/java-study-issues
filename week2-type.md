@@ -72,6 +72,7 @@ ex) int colorFrame;
  ->클래스 변수 : 클래스가 초기화되고 프로그램이 끝날때!까지가 Lifetime
  ->로컬(지역) 변수 : 변수 선언 이후 부터 블록을 벗어날 때!까지가 Lifetime
   ->Example
+  ```
     public class scope_and_lifetime {
         int num1, num2;   //Instance Variables
         static int result;  //Class Variable
@@ -86,7 +87,8 @@ ex) int colorFrame;
             System.out.println("Sum = " + result);
         }
     }
-
+   ```
+   
 [참고1](https://velog.io/@dion/%EB%B0%B1%EA%B8%B0%EC%84%A0%EB%8B%98-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8A%A4%ED%84%B0%EB%94%94-2%EC%A3%BC%EC%B0%A8-%EC%9E%90%EB%B0%94-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EB%B3%80%EC%88%98-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%B0%B0%EC%97%B4#%EB%B3%80%EC%88%98%EC%9D%98-%EC%8A%A4%EC%BD%94%ED%94%84%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%ED%83%80%EC%9E%84)
 [참고2](https://www.learningjournal.guru/article/programming-in-java/scope-and-lifetime-of-a-variable/)
 

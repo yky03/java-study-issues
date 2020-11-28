@@ -108,8 +108,9 @@ Runnable r = ()-> System.out.print("Run method");
 ## (optional) Java 13. switch 연산자
 java7 -> 정수 뿐만 아니라 문자열 사용 가능  
 java12 -> Switch Expressions -> 콜론(:)과 break문의 조합이 아닌 화살표(->)만으로 작성이 가능하며 리턴도 가능.  
-java12 -> 화살표 문법의 형식으로도 사용 가능  
 JAVA13 -> Switch 피드백을 받아 수정 -> break로 값을 반환하는 문법이 yield로 변경됨.  
+13까지는 preview , 14부터 표준화
+기존 switch문은 그대로 있고, switch operator 가 추가된것!
 ex)
 ```
 int code = 1;

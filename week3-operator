@@ -70,18 +70,18 @@ System.our.println(a+=10); //20
 JAVA8부터 람다식 구문 중 일부인 화살표 구문을 사용하여 코드 수를 줄이고 가독성을 향상시킬 수 있음.
 
 * 익명의 인터페이스 구현에도 용이함
-~~~
+```
 Runnable r = new Runnable() {
             @Override
             public void run() {
                 System.out.print("Run method");
             }
         };
-~~~
+```
 ->
-~~~
+```
 Runnable r = ()-> System.out.print("Run method");
-~~~
+```
 
 ## 3항 연산자
 (조건식) ? (A) : (B)
@@ -109,23 +109,23 @@ java12 -> Switch Expressions -> 콜론(:)과 break문의 조합이 아닌 화살
 java12 -> 화살표 문법의 형식으로도 사용 가능
 JAVA13 -> Switch 피드백을 받아 수정 -> break로 값을 반환하는 문법이 yield로 변경됨.
 ex)
-~~~
+```
 int code = 1;
 String result = switch (code) {
   case 1: break "1번";
   case 2: break "2번";
   default : break "디폴트";
   }
-~~~
+```
 ->
-~~~
+```
 int code = 1;
 String result = switch (code) {
   case 1: yield "1번";
   case 2: yield "2번";
   default : yield "디폴트";
   }
-~~~
+```
 
 [Document참고1](http://openjdk.java.net/jeps/325)
 [Document참고2](https://openjdk.java.net/jeps/354)

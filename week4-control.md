@@ -74,24 +74,67 @@ for(Integer i : list){
 
 ```
 ```
-좋지 못한 코드  
-for(int i=0; i<list.size(); i++){
+int[] array = new int[10]; //int 형 배열
+
+//좋지 못한 코드  
+for(int i=0; i<array.length(); i++){
 }
 ```
 ```
-리팩토링
-int size = list.size(); //size()함수를 반복문에서 계속 호출하지 않도록
-for(int i=0; i<size; i++){
+//리팩토링
+int arrLength = array.length(); //length 함수를 반복문에서 계속 호출하지 않도록
+for(int i=0; i<arrLength; i++){
 }
 or
 //인덱스가 필요하지 않은 경우 아래 방법을 추천
-for(int i : list){
+for(int i : array){
 }
 ```
 
 
 [리스트돌릴땐 foreach를 쓰자](https://multifrontgarden.tistory.com/130?category=471239)
 
-
 - - -
+
+## 과제0 JUnit5 학습 
+
+Junit : 어노테이션 사용, 단정문(Assertion)을 통해 수행 결과를 판별할 수 있는 java의 단위 테스팅 도구중의 하나.  
+JUnit5 : 2017년부터 도입되었으며 JAVA8 이상일때 사용 가능.  
+Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존성 추가됨, 그 외의 경우는 pom.xml에 junit5 의존성 추가.  
+
+- 기본 애노테이션  
+
+@Test  
+: 해당 메서드가 테스트 메소드임을 나타냄.  
+
+@BeforeAll/@AfterAll  
+: 현재 클래스의 어떤 테스트 메소드도 (시작하지 않은 상태/완료된 이후) 에서 해당 메소드를 실행해야함을 나타냄.  
+
+@BeforeEach/@AfterEach  
+: 현재 클래스에 속한 모든 테스트 메소드의 테스트 (수행 전/수행후) 마다 해당 메소드를 실행해야함을 나타냄.  
+
+@Disabled  
+: 이 테스트 클래스나 테스트 메소드를 사용하지 않음을 나타냄.  
+
+
+- Assertion(단정문)  
+: 테스트를 만약 성공하지 않으면 실패처리 하기 위해서 사용.  
+
+- Assumtion(가정문)  
+: 특정 상황에서만 테스트를 실행하고자 할때, 혹은 특정 상황에서 실행하지 않고자 할떄 사용하는 키워드.(local환경 등에서만 동작 등)  
+
+
+[단정문 참고링크1](https://it-mesung.tistory.com/45)
+[단정문 참고링크2](https://reiphiel.tistory.com/entry/junit5-features)
+[단정문,가정문 참고링크](https://sabarada.tistory.com/80)
+[애노테이션 참고링크](https://awayday.github.io/2017-11-11/junit5-03/)
+
+
+
+## 과제1 live-study 대시 보드를 만드는 코드 작성
+...
+
+## 과제2 Linkedlist 구현
+
+
 

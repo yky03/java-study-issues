@@ -137,8 +137,52 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 ## 과제2 Linkedlist 구현
 
 -연결리스트(링크드리스트)   
-: 각 노드(마디,교점)가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료 구조이다.
-![Singly_linked_list](https://upload.wikimedia.org/wikipedia/commons/3/37/Singly_linked_list.png)
+
+: 각 노드(마디,교점)가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료 구조이다.  
+노드의 포인터가 다음이나 이전의 노드와의 연결을 담당하게 된다.  
+
+![Singly_linked_list](https://upload.wikimedia.org/wikipedia/commons/3/37/Singly_linked_list.png)  
+
+
+-역사  
+: 1955~1956년 랜드 연구소에서 개발되었음.  
+
+-종류  
+1)단일 연결 리스트  
+: 각 노드에 자료 공간과 한 개의 포인터 공간이 있고, 각 노드의 포인터는 다음 노드를 가리킨다.  
+
+![400px-Single_linked_list](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Single_linked_list.png/400px-Single_linked_list.png)  
+
+
+2)이중 연결 리스트  
+: 단일 연결 리스트와 비슷하지만, 포인터 공간이 두 개가 있고 각각의 포인터는 앞의 노드와 뒤의 노드를 가리킨다.  
+
+![400px-Doubly_linked_list](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Doubly_linked_list.png/400px-Doubly_linked_list.png)  
+
+3)원형 연결 리스트  
+: 일반적인 연결 리스트에 마지막 노드와 처음 노드를 연결시켜 원형으로 만든 구조이다.  
+
+![400px-Circurlar_linked_list](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Circurlar_linked_list.png/400px-Circurlar_linked_list.png)  
+
+
+```
+
+//LinkedList 구현
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 [위키백과 연결리스트란](https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B2%B0_%EB%A6%AC%EC%8A%A4%ED%8A%B8)
 

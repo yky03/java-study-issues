@@ -136,5 +136,10 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 
 ## 과제2 Linkedlist 구현
 
+-연결리스트(링크드리스트)   
+: 각 노드(마디,교점)가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료 구조이다.
+![Singly_linked_list](https://upload.wikimedia.org/wikipedia/commons/3/37/Singly_linked_list.png)
+
+[위키백과 연결리스트란](https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B2%B0_%EB%A6%AC%EC%8A%A4%ED%8A%B8)
 
 

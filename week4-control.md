@@ -226,7 +226,7 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 - 블로킹 큐(java5 java.util.concurrent 패키지에 포함)    
 : 특정 상황에 쓰레드를 대기하도록 하는 큐이다.(바운디드 세마포어와 구현이 비슷함)    
 
-[!blocking-queue](http://tutorials.jenkov.com/images/java-concurrency-utils/blocking-queue.png)  
+![blocking-queue](http://tutorials.jenkov.com/images/java-concurrency-utils/blocking-queue.png)  
 
 
 - 세마포어(Semaphore) 와 뮤택스(mutex)의 차이  

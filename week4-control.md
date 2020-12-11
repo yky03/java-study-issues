@@ -144,7 +144,7 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 
 -연결리스트(링크드리스트)   
 
-: 각 노드(마디,교점)가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료 구조이다.  
+: 각 노드(마디,교점 vertex)가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료 구조이다.  
 노드의 포인터가 다음이나 이전의 노드와의 연결을 담당하게 된다.  
 
 ![Singly_linked_list](https://upload.wikimedia.org/wikipedia/commons/3/37/Singly_linked_list.png)  
@@ -223,6 +223,23 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 : 연결리스트를 사용하여 큐의 길이를 쉽게 늘릴 수 있어 오버플로우가 발생하지 않는 것이 특징이다.  
 -> 원형으로 만들지 않아도 삽입과 삭제가 제한되지 않아 편리하다.  
 
+- 블로킹 큐(java5 java.util.concurrent 패키지에 포함)    
+: 특정 상황에 쓰레드를 대기하도록 하는 큐이다.(바운디드 세마포어와 구현이 비슷함)    
+
+[!blocking-queue](http://tutorials.jenkov.com/images/java-concurrency-utils/blocking-queue.png)  
+
+
+- 세마포어(Semaphore) 와 뮤택스(mutex)의 차이  
+
+세마포어 : 공유된 자원의 데이터를 여러 프로세스가 접근하는 것을 막는 것.(크리티컬 섹션을 보호)    
+뮤텍스 : 공유된 자원의 데이터를 여러 쓰레드가 접근하는 것을 막는 것.
+
+* Tip
+Critical Section : 각 프로세스에서 공유데이터를 액세스하는 프로그램 코드 부분
+
+[블로킹큐참고](https://parkcheolu.tistory.com/29)  
+[세마포어와 뮤택스 비교](https://jwprogramming.tistory.com/13)
+
 
 ```
 -add(item): item을 리스트의 끝부분에 추가한다.  
@@ -232,7 +249,7 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 ```
 
 [큐참고](https://gmlwjd9405.github.io/2018/08/02/data-structure-queue.html)  
-[큐위키백과](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0)  
+[큐위키백과](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0))  
 
 ```
 

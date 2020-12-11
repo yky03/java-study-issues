@@ -173,17 +173,66 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
 [위키백과 연결리스트란](https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B2%B0_%EB%A6%AC%EC%8A%A4%ED%8A%B8)
+
+
+## 과제3,4 Stack 구현  
+
+- 스택  
+: 한 쪽 끝에서만 자료를 넣거나 뺄 수 있는 선형 구조(LIFO - Last In First Out)  
+
+```
+-pop(): 스택에서 가장 위에 있는 항목을 제거한다.  
+-push(item): item 하나를 스택의 가장 윗 부분에 추가한다.  
+-peek(): 스택의 가장 위에 있는 항목을 반환한다.  
+-isEmpty(): 스택이 비어 있을 때에 true를 반환한다.  
+-https://gmlwjd9405.github.io/2018/08/03/data-structure-stack.html  
+```
+
+![300px-Data_stack.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/300px-Data_stack.svg.png)  
+
+
+[스택참고](https://gmlwjd9405.github.io/2018/08/03/data-structure-stack.html)  
+[스택위키백과](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9D)  
+
+```
+
+//Stack 구현
+
+
+```
+
+## 과제5 Queue 구현  
+
+- 큐  
+: 먼저 집어 넣은 데이터가 먼저 나오는 자료 구조(FIFO - First In First Out)  
+
+- 선형 큐  
+: 막대 모양으로 된 큐로써 크기가 제한되어 있고 빈 공간을 사용하려면 모든 자료를 꺼내거나 자료를 한 칸씩 옮겨야 한다는 단점이 있다.  
+
+- 환형 큐(원형 큐)      
+: 선형큐를 보완한 것이 환형 큐이며 front가 큐의 끝에 닿으면 큐의 맨 앞으로 자료를 보내어 원형으로 연결하는 방식이다.  
+
+- 링크드 큐(연결리스트로 구현한)  
+: 연결리스트를 사용하여 큐의 길이를 쉽게 늘릴 수 있어 오버플로우가 발생하지 않는 것이 특징이다.  
+-> 원형으로 만들지 않아도 삽입과 삭제가 제한되지 않아 편리하다.  
+
+
+```
+-add(item): item을 리스트의 끝부분에 추가한다.  
+-remove(): 리스트의 첫 번째 항목을 제거한다.  
+-peek(): 큐에서 가장 위에 있는 항목을 반환한다.  
+-isEmpty(): 큐가 비어 있을 때에 true를 반환한다.  
+```
+
+[큐참고](https://gmlwjd9405.github.io/2018/08/02/data-structure-queue.html)  
+[큐위키백과](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0)  
+
+```
+
+//Queue 구현
+
+
+```
 
 

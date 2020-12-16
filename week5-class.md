@@ -109,7 +109,12 @@ public 클래스명 getInstance(){
 
 
 ## 과제 BFS , DFS 구현
-DFS : 깊이 우선 탐색  
-BFS : 너비 우선 탐색
+BFS : 너비 우선 탐색으로 현재 나의 위치에서 가장 가까운 노드를 먼저 방문.(최단거리 구할경우 현재위치는 pop, 방문한 곳은 check후 큐에 넣음 Queue로 구현)  
+DFS : 깊이 우선 탐색으로 가중치가 붙어서 이동한다거나,이동 과정에서 제약이 있을 경우(시간은 더 걸려도 변수 지속 관리에 용이함) (Stack or 재귀함수)  
+[!2254723E588084F830](https://t1.daumcdn.net/cfile/tistory/2254723E588084F830)
+
+[BFS & DFS 구분](https://haams704.tistory.com/75)
+[그래프 구현](https://mygumi.tistory.com/102)
+
 
 

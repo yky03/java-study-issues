@@ -113,8 +113,8 @@ BFS : 너비 우선 탐색으로 현재 나의 위치에서 가장 가까운 노
 DFS : 깊이 우선 탐색으로 가중치가 붙어서 이동한다거나,이동 과정에서 제약이 있을 경우(시간은 더 걸려도 변수 지속 관리에 용이함) (Stack or 재귀함수)  
 ![2254723E588084F830](https://t1.daumcdn.net/cfile/tistory/2254723E588084F830)
 
-[BFS & DFS 구분](https://haams704.tistory.com/75)
-[그래프 구현](https://mygumi.tistory.com/102)
+[BFS & DFS 구분 참고](https://haams704.tistory.com/75)
+[그래프 참고](https://mygumi.tistory.com/102)
 
 
 

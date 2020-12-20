@@ -7,4 +7,6 @@
 - https://docs.oracle.com/javase/tutorial/java/TOC.html
 
 # OpenJdk 활용 문서
-http://openjdk.java.net/jeps
+- http://openjdk.java.net/jeps
+
+

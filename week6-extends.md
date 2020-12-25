@@ -126,15 +126,11 @@ public class TestDog {
 
 ## Object 클래스  
 
-Object 클래스 : 자바 API의 모든 클래스와 사용자가 정의한 모든 클래스의 최상위 클래스이다.(모든 자바 클래스들은 Object클래스로부터 상속받음)  
+Object : 자바 API의 모든 클래스와 사용자가 정의한 모든 클래스의 최상위 클래스이다.(모든 자바 클래스들은 Object클래스로부터 상속받음)  
 
 즉 어떤 클래스에서든 객체에서 접근 및 오버라이딩이 가능하다는 의미도 된다.  
 
 평소에 잘 보지 않던 최상위 클래스의 메소드 및 Document를 참고하면 좋을 것 같다.  
-
-
-![233BA837529F47710A](https://t1.daumcdn.net/cfile/tistory/233BA837529F47710A)
-
 
 ```
 boolean equals(Object ob) : 두 객체가 같은지 비교  
@@ -149,6 +145,8 @@ void wait() : 스레드를 일시적으로 중지할 때 호출
 void wait(long timeout) : 주어진 시간만큼 스레드를 일시적으로 중지할 때 호출  
 void wait(long timeout, int nanos) : 주어진 시간만큼 스레드를 일시적으로 중지할 때 호출  
 ```
+
+![233BA837529F47710A](https://t1.daumcdn.net/cfile/tistory/233BA837529F47710A)
 
 
 [Object 정의 및 메소드 참고](https://hyeonstorage.tistory.com/178)  

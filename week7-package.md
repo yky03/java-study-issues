@@ -9,6 +9,28 @@
 - classpath 옵션  
 - 접근지시자  
 
+# Today Keyword  
+- 도커 + 넥서스(사내망구축 및 메이븐 OR 그래들 학습)    
+- Domain Specific Language(Groovy 등 도메인 특화 언어 DSL 이라 부름)   
+- 테스트 주도 개발 책 추천  
+- 깃 심화 학습  
+- Jetbrain Report (트렌드 확인)  
+- java11기준 java.base 패키지에 빌드인패키지 클래스 파일 있음.  
+- GeeksToGeeks java Quiz  
+- import static 사용 (테스트코드나, System.* 등.. java5부터가능?)  
+- 클래스로더 계층구조 다른분 링크  
+- 소프트웨어 장인 책  
+- 토비의 스프링  
+- 다음날 복습시 하트글 찾아보기  
+- java9 직소 프로잭트  
+- java11에는 rt.jar가 없고 src.zip 이 있음  
+- Constant Interface(상수 모아놓음) -> Anti Pattern    
+-> 인터페이스 변수는 public static이 기본적으로 붙음, 인터페이스는 상수보다는 규약을 정해놓는 용도  
+- 사내 컨벤션 툴 만들기(빌드할때 에러나도록)  
+- jpa 쿼리가 복잡해지는게 필요할때는 querydsl(문자열 대신 type safe장점) 도입  
+- [enum](https://stackoverflow.com/questions/9969690/whats-the-advantage-of-a-java-enum-versus-a-class-with-public-static-final-fiel)  
+- *보다는 클래스를 명시하자 Editor - Code Style Java 의존성 차이(어디서 온지 알수 있으니깐)    
+
 - - -
 
 

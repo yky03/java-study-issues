@@ -213,10 +213,13 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 - 큐  
 : 먼저 집어 넣은 데이터가 먼저 나오는 자료 구조(FIFO - First In First Out)  
 
-- 인큐  
+- 검사  
+: peek()-값리턴, element()-예외발생  
+
+- 인큐(Offer()-값리턴, add()-예외발생)
 : 큐에 데이터를 넣는 작업  
 
-- 디큐  
+- 디큐(Poll()-값리턴, remove()-예외발생)  
 : 큐에서 데이터를 꺼내는 작업  
 
 - 프런트    
@@ -249,7 +252,8 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 * Tip
 Critical Section : 각 프로세스에서 공유데이터를 액세스하는 프로그램 코드 부분
 
-[인큐, 디큐 참고](https://velog.io/@msriver/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%81%90Queue)
+[인큐, 디큐 참고](https://velog.io/@msriver/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%81%90Queue)  
+[Offer(), Poll()](https://goodteacher.tistory.com/112)  
 [블로킹큐참고](https://parkcheolu.tistory.com/29)  
 [세마포어와 뮤택스 비교](https://jwprogramming.tistory.com/13)
 

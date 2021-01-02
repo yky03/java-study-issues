@@ -18,9 +18,28 @@
 -클래스 간의 이름 중복으로 발생하는 충돌을 막아준다.  
 -클래스를 기능 별로 분류할 수 있어 필요한 클래스의 식별이 용이하다.  
 
+- 빌트인패키지  
+```
+자바는 개발자들이 사용할 수 있도록 여러 많은 패키지 및 클래스를 제공한다.
+가장 자주 쓰이는 패키지로는 **java.lang**과 **java.util**이 있다.
+java.lang은 자주 사용하는 패키지이지만 한번도 **import**하여 사용한적이 없다.
+**즉, 자바에서 java.lang 패키지는 아주 기본적인 것들이기 때문에 import로 불러오지 않아도 자바가 알아서 java.lang의 클래스를 불러온다.**
+
+//ex) String, System  
+import java.lang.String;
+import java.lang.System;
+
+public class Main{
+	public static void main(String[] args){
+		String str = this is from java.lang.String";
+		System.out.println(str);
+	}
+}
+```
 
 [패키지 참고](https://blog.hexabrain.net/120)  
 [접근 제어자 참고](https://kils-log-of-develop.tistory.com/430)  
+[빌트인패키지 참고](https://www.notion.so/ed8e346f88f54849a06ff968b1877ca5)  
 
 
 ## import 키워드  

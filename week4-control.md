@@ -208,10 +208,22 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 
 ```
 
-## 과제5 Queue 구현  
+## 과제5 Queue 구현  ( 배열로 만든 일반큐 복잡도 O(n) , 배열로 만든 원형 큐 복잡도 O(1) )
 
 - 큐  
 : 먼저 집어 넣은 데이터가 먼저 나오는 자료 구조(FIFO - First In First Out)  
+
+- 인큐  
+: 큐에 데이터를 넣는 작업  
+
+- 디큐  
+: 큐에서 데이터를 꺼내는 작업  
+
+- 프런트    
+: 데이터를 꺼내는 쪽, 출구  
+
+- 리어    
+: 데이터를 넣는쪽, 입구  
 
 - 선형 큐  
 : 막대 모양으로 된 큐로써 크기가 제한되어 있고 빈 공간을 사용하려면 모든 자료를 꺼내거나 자료를 한 칸씩 옮겨야 한다는 단점이 있다.  
@@ -237,6 +249,7 @@ Spring Boot 2.2+ 버전의 프로젝트에서는 기본적으로 JUnit5 의존�
 * Tip
 Critical Section : 각 프로세스에서 공유데이터를 액세스하는 프로그램 코드 부분
 
+[인큐, 디큐 참고](https://velog.io/@msriver/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%81%90Queue)
 [블로킹큐참고](https://parkcheolu.tistory.com/29)  
 [세마포어와 뮤택스 비교](https://jwprogramming.tistory.com/13)
 

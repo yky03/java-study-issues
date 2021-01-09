@@ -15,7 +15,6 @@
 -
 -
 
-
 - - -
 
 
@@ -24,8 +23,8 @@
 - 인터페이스 정의 및 선언방법    
 : 동일한 목적 하에 동일한 기능을 수행하게끔 강제하는것. 
 (interface 키워드로 만들고 implements 키워드를 사용해 하위클래스에서 구현한다. -> 다형성을 이용하여 개발코드 수정을 줄이고 유지보수성을 높인다.)  
-```
 
+```
 public interface RemoteControl {
     //상수
     int MAX_VOLUME = 10;
@@ -51,7 +50,7 @@ public interface RemoteControl {
     }
 }
 
-``
+```
 
 [인터페이스 선언 및 구현 방법 예제](https://gbs1995.tistory.com/15)
 

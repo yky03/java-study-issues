@@ -9,9 +9,17 @@
 - 커스텀한 예외 만드는 방법  
 
 # Today Keyword  
-- Chained Exception : https://wisdom-and-record.tistory.com/46
-- try - with - resoucres : https://sujl95.tistory.com/62
--
+- Chained Exception : https://wisdom-and-record.tistory.com/46  
+- try - with - resoucres : https://sujl95.tistory.com/62  
+- 리팩토링 2판, GoF 디자인패턴  
+- learning.orelly.com  
+- 권장예외처리 https://hyejikim.tistory.com/4  
+- 시큐어 보안 가이드  
+- java7 try - with - resources로 개선  https://codechacha.com/ko/java-try-with-resources/ https://lelecoder.com/22 , close도 exception 이 발생할 수 있다  finally작성하면 자원반납후 동작 , byte코드를 까보면 Throwable 을 캐치로 잡아 트라이캐치해서 크로즈해줌  
+- surround with 단축키(if else 감싸기 등 시프트두번으로 단축키확인)    
+
+
+
 
 - - -
 
@@ -45,6 +53,13 @@ class 예외 클래스 이름 extends Exception
  사용자 정의 예외 생성 (throw)  // 기존의 예외 클래스로 처리할 수 없다면 사용자만의 예외 클래스를 작성하여 발생 시킬 수 있음, 예외 최상위 클래스인 java.lang.Exception 클래스를 상속
 ```
 
+catch 문 여러개 작성할때는 순서(상속관계) 가 중요하다.  
+```
+IllegalException..
+RuntimeException e..
+
+```
+
 [예외처리 참고](https://hyeonstorage.tistory.com/203)  
 
 
@@ -57,7 +72,6 @@ class 예외 클래스 이름 extends Exception
 |클래스|Exception 클래스의 자손들 중 Runtime Exception을<br/> 제외한 모든 클래스|Runtime Exception 클래스와<br/> 자손 클래스|
 |처리여부|반드시 예외 처리 해야함|명시적 처리 강제하지 않음|
 |확인시점|컴파일단계|실행단계|
-|예외발생시 트랜잭션처리|rollback 하지 않음|rollback함|
 |대표예외|-IOException<br/> -SqlException|-NullPointerException<br/>-IllegalArgumentException<br/>-IndexOutOfBoundException<br/>-SystemException|
 
 

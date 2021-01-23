@@ -10,9 +10,17 @@
 - 데드락  
 
 # Today Keyword  
-- https://sujl95.tistory.com/63
--  
--  
+- https://sujl95.tistory.com/63  
+- 자바 병렬 프로그래밍 책 추천  
+- 톰캣최종분석  
+- https://jeong-pro.tistory.com/204
+- nerd
+- ctrl + z, ctrl + y
+- 메소드 자동빼기(매개변수완성)
+- slideshare
+- 컨커런시 model STM, Actor, STM, Clojure, Akka
+- critical path
+- visualvm 스레드덤프로 데드락 확인 가능  
 
 - - -
 

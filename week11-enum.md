@@ -8,7 +8,19 @@
 - EnumSet  
 
 # Today Keyword  
--  
+- enum 클래스는 java.lang.Enum 클래스를 상속 받는다.  
+- 타입세이프티(회사의 애플, 과일의 애플 비교?)  
+- querydsl(type safety 문자열 작성보다는 )    
+- @Enumerated(EnumType.ORDINAL)  -> - @Enumerated(EnumType.String)   
+  jpa에서 ordinal 지양, Fruit fruit;  
+- enum 순서 정의할때(1,2,3 이면 중간에 순서 추가 어려움)
+```java
+enum Fruit{
+ Kiwi(10),
+ Banana(20),
+ Apple(30)
+}
+```
 
 - - -
 

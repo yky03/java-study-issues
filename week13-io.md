@@ -52,7 +52,7 @@ InputStream 클래스에는 바이트 기반 입력 스트림이 기본적으로
 OutputStream 클래스에는 모든 바이트 기반 출력 스트림이 기본적으로 가져야할 메소드가 정의되어 있음.  
 
 
-[InputStream Outputstream 개념https://develop-im.tistory.com/54)  
+[InputStream Outputstream 개념](https://develop-im.tistory.com/54)  
 
 ## Byte와 Character 스트림
 

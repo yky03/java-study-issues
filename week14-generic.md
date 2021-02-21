@@ -61,8 +61,8 @@ public class GenericTest {
 }
 ```
 
-[자바 제네릭 사용법](https://ktko.tistory.com/entry/%EC%9E%90%EB%B0%94-%EC%A0%9C%EB%84%A4%EB%A6%ADGeneric-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%82%AC%EC%9A%A9%EB%B2%95-1%ED%83%84)
-[-제너릭의 종류,와일드카드 <T>, <?>, <? extends T>, <? super T>](https://blog.naver.com/ykycome00/222101321226)   
+[자바 제네릭 사용법](https://ktko.tistory.com/entry/%EC%9E%90%EB%B0%94-%EC%A0%9C%EB%84%A4%EB%A6%ADGeneric-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%82%AC%EC%9A%A9%EB%B2%95-1%ED%83%84)    
+[제너릭의 종류,와일드카드 <T>, <?>, <? extends T>, <? super T>](https://blog.naver.com/ykycome00/222101321226)   
 
 ## 제네릭 주요 개념 (바운디드 타입, 와일드 카드)  
 
@@ -112,8 +112,11 @@ static < T > void fromArrayToCollection(
 소거란 원소 타입을 컴파일 타입에만 검사하고 런타임에는 해당 타입 정보를 알 수 없는 것입니다.  
 한마디로, 컴파일 타임에만 타입 제약 조건을 정의하고, 런타임에는 타입을 제거한다는 뜻입니다.  
 
-배열 -> 공변,구체화타입(자신의 타입 정보를 런타임에도 알고 있는 것)  
-제네릭 -> 불공변(자기와 타입이 같은 것만 같다고 인식하는 특징),비구체화타입(런타임에는 소거 되기 때문에 컴파일 타임보다 정보를 적게 가지는 것)    
+배열   
+-> 공변,구체화타입(자신의 타입 정보를 런타임에도 알고 있는 것)   
+
+제네릭 
+-> 불공변(자기와 타입이 같은 것만 같다고 인식하는 특징),비구체화타입(런타임에는 소거 되기 때문에 컴파일 타임보다 정보를 적게 가지는 것)    
 
 [제네릭 Type Erasure](https://devlog-wjdrbs96.tistory.com/263)  
 

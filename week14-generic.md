@@ -115,7 +115,7 @@ static < T > void fromArrayToCollection(
 배열   
 -> 공변,구체화타입(자신의 타입 정보를 런타임에도 알고 있는 것)   
 
-제네릭 
+제네릭   
 -> 불공변(자기와 타입이 같은 것만 같다고 인식하는 특징),비구체화타입(런타임에는 소거 되기 때문에 컴파일 타임보다 정보를 적게 가지는 것)    
 
 [제네릭 Type Erasure](https://devlog-wjdrbs96.tistory.com/263)  

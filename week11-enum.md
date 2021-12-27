@@ -200,7 +200,7 @@ invoice.getStatus().action(inputMessage);
 ```
 
 [enum뿌리를 찾아서](https://www.nextree.co.kr/p11686/)    
-[우아한형제들 enum활용기](https://woowabros.github.io/tools/2017/07/10/java-enum-uses.html)  
+[우아한형제들 enum활용기](https://techblog.woowahan.com/2527/)    
 [Spring을 위한 jdk11 enum확장](https://www.python2.net/questions-208712.htm)  
 
 ## EnumSet 
